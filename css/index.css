@@ -1,0 +1,117 @@
+/* ::::: https://dailyuploads.net/mega.css ::::: */
+
+body { margin: 0px; height: auto; color: rgb(102, 102, 102); background: rgb(255, 255, 255) url('../img/bg.png') no-repeat scroll left top; text-align: center; }
+body * { margin: auto; }
+img { border: 0px none; }
+a, a:visited { color: rgb(44, 110, 170); }
+table { text-align: left; }
+small a { font-size: 11px; color: rgb(34, 34, 119); text-decoration: none; }
+small a:hover { color: rgb(17, 17, 153); text-decoration: underline; }
+.file_slot { background: rgb(236, 243, 249) none repeat scroll 0% 0%; border: 1px solid rgb(202, 214, 230); border-radius: 3px; }
+form { margin: 0px; }
+#lang { background-image: url('../img/lang_bk.png'); background-repeat: no-repeat; height: 29px; width: 133px; }
+#lang ul { float: left; list-style: outside none none; margin: 0px 0px 0px 10px; padding: 0px; position: relative; top: 4px; width: 120px; }
+#lang ul li { text-align: left; padding: 3px; margin-right: 10px; white-space: nowrap; height: auto; }
+#lang ul li a { color: rgb(187, 188, 184); text-decoration: none; display: block; line-height: normal; text-align: left; }
+#lang ul li.top a { color: rgb(187, 188, 184); }
+#lang .dropdown { position: relative; width: 120px; background-color: rgb(45, 44, 42); }
+#lang ul li { display: none; background: rgb(45, 44, 42) none repeat scroll 0% 0%; border: 1px solid transparent; }
+#lang ul .top { display: block; background: transparent none repeat scroll 0% 0%; border: medium none; }
+#lang ul li:hover { color: rgb(255, 255, 255); }
+#lang ul:hover li { display: block; }
+.tbl1 { text-align: left; border-spacing: 0px; padding-top: 5px; padding-bottom: 5px; }
+.tbl1 tr td, .tbl1 tr th { border-width: 1px; border-style: solid none none solid; border-color: rgba(0, 0, 0, 0.06); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.tbl1 tr td:last-child, .tbl1 tr th:last-child { border-right-style: solid; padding: 3px; }
+.tbl1 tr:last-child td, .tbl1 tr:last-child th { border-bottom-style: solid; }
+.tbl1 tr td { background-color: rgb(245, 245, 245); font-size: 14px; height: 35px; }
+.tbl1 tr td a { color: rgb(218, 32, 23); }
+.tbl1 tr:hover td { background-color: rgb(238, 239, 243); }
+tr:only-child td:only-child { border-radius: 4px; }
+tr:first-child td:only-child { border-radius: 4px 4px 0px 0px; }
+tr:last-child td:last-child { border-radius: 0px 0px 4px; }
+tr:first-child td:last-child { border-radius: 0px 4px 0px 0px; }
+tr:last-child td:first-child { border-radius: 0px 0px 0px 4px; }
+tr:first-child td:first-child { border-radius: 4px 0px 0px; }
+tr:last-child td:only-child { border-radius: 0px 0px 4px 4px; }
+td { border: 0px none; }
+.tabberlive .tabbertabhide { display: none; }
+.tabberlive { margin-top: 1px; }
+ul.tabbernav { margin: 0px; padding: 3px 0px; border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
+ul.tabbernav li { list-style: outside none none; margin: 0px; display: inline; }
+ul.tabbernav li a { background: rgb(243, 246, 251) none repeat scroll 0% 0%; border-width: 1px 1px medium; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.06) rgba(0, 0, 0, 0.06) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 3px; margin-left: 3px; text-decoration: none; border-radius: 3px 3px 0px 0px; }
+ul.tabbernav li a:link { color: rgb(102, 102, 170); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.06) rgba(0, 0, 0, 0.06) -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 3px; margin-left: 3px; text-decoration: none; border-radius: 3px 3px 0px 0px; }
+ul.tabbernav li a:visited { color: rgb(102, 102, 119); }
+ul.tabbernav li a:hover { color: rgb(0, 0, 0); background: rgb(170, 170, 238) none repeat scroll 0% 0%; border-color: rgba(0, 0, 0, 0.06); }
+ul.tabbernav li.tabberactive a { background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); color: rgb(68, 68, 136); }
+ul.tabbernav li.tabberactive a:hover { color: rgb(0, 0, 0); background: white none repeat scroll 0% 0%; border-bottom: 1px solid white; }
+.tabberlive .tabbertab { padding: 5px; border-top: 0px none; background-color: rgb(255, 255, 255); text-align: center; border-radius: 3px; }
+.tabberlive .tabbertab h2 { display: none; }
+h2 { margin-bottom: 3px; }
+@font-face {
+	font-family: "gotham_lightregular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/gotham-light-webfont.eot') format("embedded-opentype"), url('../fonts/gotham-light-webfont.woff') format("woff"), url('../fonts/gotham-light-webfont.ttf') format("truetype"), url('../fonts/gotham-light-webfont.svg') format("svg");
+}
+@font-face {
+	font-family: "gotham_bookregular";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/gotham-book-webfont.eot') format("embedded-opentype"), url('../fonts/gotham-book-webfont.woff') format("woff"), url('../fonts/gotham-book-webfont.ttf') format("truetype"), url('../fonts/gotham-book-webfont.svg') format("svg");
+}
+body { font-family: Verdana,Arial,Helvetica; letter-spacing: 0px; font-size: 13px; float: left; min-width: 100%; }
+a { color: rgb(0, 136, 204); text-decoration: none; }
+a:visited { color: rgb(0, 136, 204); text-decoration: none; }
+.btn_blue, input[type="button"], input[type="submit"] { font-family: gotham_lightregular,Arial,Helvetica; display: inline; margin-left: 3px; margin-top: 5px; margin-bottom: 5px; }
+.btn_blue, input[type="button"], input[type="submit"] { border: 0px none; display: inline; background-color: rgb(218, 32, 23); padding: 4px 7px; border-radius: 3px; color: rgb(255, 255, 255); cursor: pointer; }
+.btn_blue, input[type="button"], input[type="submit"]:hover { background-color: rgb(218, 32, 23); text-decoration: none; color: rgb(255, 255, 255); }
+a:hover { border-color: rgb(221, 221, 221) transparent rgb(221, 221, 221) rgb(221, 221, 221); text-decoration: underline; }
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { display: inline-block; font-size: 14px; color: rgb(85, 85, 85); border-radius: 3px; }
+textarea { height: auto; }
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset; transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; padding-left: 2px; }
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus { border-color: rgba(82, 168, 236, 0.8); outline: 0px none; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6); }
+.navbar-inner { background-image: url('../img/header_bk.png'); height: 55px; }
+.container { margin-right: auto; margin-left: auto; width: auto; height: 100%; }
+.nav > .pull-right { float: right; margin-right: 20px; }
+.logo { display: block; float: left; padding: 10px; position: absolute; left: 15px; }
+.logo img { border: 0px none; }
+.pull-right > li { display: inline; float: left; }
+.nav-menu ul { margin: 15px 0px; font-family: "gotham_bookregular"; display: inline-block; }
+.nav-menu ul li { display: inline; margin-left: 10px; }
+.nav li { background-image: url('../img/menu_bk.png'); height: 29px; background-repeat: no-repeat; width: 91px; }
+.nav li a { color: rgb(187, 188, 184); line-height: 29px; text-align: center; display: block; }
+.nav li a:visited { color: rgb(187, 188, 184); }
+.nav li a:hover { color: rgb(243, 243, 243); text-decoration: none; }
+.footer { background-image: url('../img/footer_bk.png'); background-repeat: repeat-x; height: 159px; padding-top: 20px; }
+.footer ul { float: left; padding: 0px; margin: 0px; width: 150px; }
+.footer ul li { float: left; padding: 0px; margin: 0px; list-style: outside none none; width: 100%; text-align: left; line-height: 20px; }
+.footer ul li a { color: rgb(132, 132, 132); text-decoration: none; }
+.footer ul li.head { text-transform: uppercase; color: rgb(55, 51, 48); font-size: 14px; padding-bottom: 15px; padding-top: 5px; }
+.inner { width: 1038px; padding-top: 70px; }
+.banner { min-height: 500px; }
+h3, h1, h2 { color: rgb(126, 126, 126); font-size: 30px; font-weight: normal; padding-bottom: 10px ! important; font-family: "Calibri"; }
+@font-face {
+	font-family: "calibri";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/calibri.eot') format("embedded-opentype"), url('../fonts/calibri.woff') format("woff"), url('../fonts/calibri.ttf') format("truetype"), url('../fonts/calibri.svg') format("svg");
+}
+@font-face {
+	font-family: "calibrib";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/calibrib.eot') format("embedded-opentype"), url('../fonts/calibrib.woff') format("woff"), url('../fonts/calibrib.ttf') format("truetype"), url('../fonts/calibrib.svg') format("svg");
+}
+@font-face {
+	font-family: "calibrii";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/calibrii.eot') format("embedded-opentype"), url('../fonts/calibrii.woff') format("woff"), url('../fonts/calibrii.ttf') format("truetype"), url('../fonts/calibrii.svg') format("svg");
+}
+@font-face {
+	font-family: "calibriz";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/calibriz.eot') format("embedded-opentype"), url('../fonts/calibriz.woff') format("woff"), url('../fonts/calibriz.ttf') format("truetype"), url('../fonts/calibriz.svg') format("svg");
+}
+.banner { background: transparent none repeat scroll 0% 0%; }
